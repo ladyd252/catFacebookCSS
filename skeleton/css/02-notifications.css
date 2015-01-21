@@ -1,0 +1,41 @@
+.badge {
+  padding: 1px 6px 1px 6px;
+  background: black;
+  border-radius: 50%;
+  margin-left: 4px;
+  font-size: 14px;
+}
+
+
+.notifications {
+  position: absolute;
+  display: none;
+  top: 100%;
+  width: 150%;
+  left: 0;
+  color: black;
+}
+
+.notifications li{
+  width: 100%;
+  border-bottom: thin solid #ccc;
+  border-right: thin solid #ccc;
+  border-left: thin solid #ccc;
+  background: white;
+}
+
+.header-list > li:first-child:hover .notifications {
+  display: block;
+}
+
+.header-list > li:first-child:hover .badge{
+  background: red;
+}
+
+.notifications li:hover{
+  background: #eee;
+}
+
+.notifications li:last-child {
+  border-radius: 0 0 5px 5px
+}

@@ -1,0 +1,29 @@
+
+.container {
+  width: 900px;
+  margin: auto;
+  display: block;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+.container-main {
+  float: right;
+  background: white;
+  border: thin solid #eee;
+  min-height: 200px;
+  width: 620px;
+  padding: 19px;
+  border-left: 1px solid #ccc;
+}
+
+.container-sidebar {
+  float: left;
+  background: white;
+  border: thin solid #eee;
+  min-height: 200px;
+  width: 200px;
+  padding: 19px;
+}
